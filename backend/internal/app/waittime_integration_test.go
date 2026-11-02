@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/config"
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/config"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // IMP 15-clinic-reservation-wait-time-api TASK-0001: 待ち時間 API の統合テスト（実 DB・OpenAPI 契約チェック）

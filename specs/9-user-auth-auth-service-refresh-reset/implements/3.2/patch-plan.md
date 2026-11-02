@@ -35,7 +35,7 @@ created_at: 2026-10-10T17:14:20+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| service/auth_service_test.go | REQ-003-AC-1/2/3, REQ-004-AC-1/2/3/4, REQ-005-AC-1/2 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| service/auth_service_test.go | REQ-003-AC-1/2/3, REQ-004-AC-1/2/3/4, REQ-005-AC-1/2 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

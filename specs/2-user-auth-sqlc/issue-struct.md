@@ -4,7 +4,7 @@
 
 | 項目 | 値 |
 |---|---|
-| Issue URL | https://github.com/kava2108/booking/issues/2 |
+| Issue URL | https://github.com/kava2108/racoreserve/issues/2 |
 | Feature | user-auth |
 | Task ID | 1.2 |
 | Wave | P0 |

@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/apierror"
+	"github.com/kava2108/racoreserve/backend/internal/apierror"
 )
 
 // writeError は認証・認可ミドルウェアの共通エラー応答。

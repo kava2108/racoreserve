@@ -6,7 +6,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
 )
 
 // JWTAuth は Authorization: Bearer のアクセストークンを検証し、Identity を設定する。

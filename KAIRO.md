@@ -1,4 +1,4 @@
-# KAIRO — AI-TDD Engine for booking
+# KAIRO — AI-TDD Engine for racoreserve
 
 ## 標準ワークフロー
 

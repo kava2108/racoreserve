@@ -4,7 +4,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // Identity は認証済みユーザー。JWT 検証ミドルウェア（user-auth の jwt_auth）が SetIdentity で設定し、

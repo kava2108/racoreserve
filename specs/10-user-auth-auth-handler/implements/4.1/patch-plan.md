@@ -44,7 +44,7 @@ created_at: 2026-10-10T17:14:20+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| app/auth_integration_test.go, app/app_test.go, middleware/jwt_auth_test.go, config/config_test.go | REQ-001〜005 全 AC | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| app/auth_integration_test.go, app/app_test.go, middleware/jwt_auth_test.go, config/config_test.go | REQ-001〜005 全 AC | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

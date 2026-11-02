@@ -39,7 +39,7 @@ created_at: 2026-10-10T18:42:51+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| service/wait_time_service_test.go, app/waittime_integration_test.go, repository/db/clinic_queries_test.go | REQ-004-AC-1〜6, REQ-007-AC-1 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| service/wait_time_service_test.go, app/waittime_integration_test.go, repository/db/clinic_queries_test.go | REQ-004-AC-1〜6, REQ-007-AC-1 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // IMP 12-clinic-reservation-appointment-api TASK-0001: 予約 API の統合テスト（実 DB・OpenAPI 契約チェック）

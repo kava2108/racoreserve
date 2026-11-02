@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // AdminHandler はクリニック管理者向けの設定 API（AdminOnly で保護する）。

@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-2-user-auth-sqlc |
 | imp_version | 1.0.0 |
-| source_issue | #2（https://github.com/kava2108/booking/issues/2） |
+| source_issue | #2（https://github.com/kava2108/racoreserve/issues/2） |
 | task | user-auth tasks.md §1.2 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

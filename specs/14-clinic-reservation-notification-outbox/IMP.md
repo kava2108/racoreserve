@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-14-clinic-reservation-notification-outbox |
 | imp_version | 1.0.0 |
-| source_issue | #14（https://github.com/kava2108/booking/issues/14） |
+| source_issue | #14（https://github.com/kava2108/racoreserve/issues/14） |
 | task | clinic-reservation tasks.md §2.4 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

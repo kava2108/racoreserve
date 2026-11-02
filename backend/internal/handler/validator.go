@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	"github.com/kava2108/booking/backend/internal/apierror"
+	"github.com/kava2108/racoreserve/backend/internal/apierror"
 )
 
 // ValidationError は入力検証の失敗(フィールド別)。HTTP 422 に変換される。

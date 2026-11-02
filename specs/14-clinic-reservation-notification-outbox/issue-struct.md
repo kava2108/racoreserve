@@ -29,4 +29,4 @@
 
 ## GitHub Issue
 - Issue 番号: #14
-- Issue URL: https://github.com/kava2108/booking/issues/14
+- Issue URL: https://github.com/kava2108/racoreserve/issues/14

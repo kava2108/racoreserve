@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-4-clinic-reservation-db-migration |
 | imp_version | 1.0.0 |
-| source_issue | #4（https://github.com/kava2108/booking/issues/4） |
+| source_issue | #4（https://github.com/kava2108/racoreserve/issues/4） |
 | task | clinic-reservation tasks.md §1.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

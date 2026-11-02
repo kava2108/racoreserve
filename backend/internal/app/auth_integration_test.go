@@ -20,14 +20,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/kava2108/booking/backend/internal/app"
-	"github.com/kava2108/booking/backend/internal/auth"
-	"github.com/kava2108/booking/backend/internal/config"
-	"github.com/kava2108/booking/backend/internal/middleware"
-	"github.com/kava2108/booking/backend/internal/repository"
-	"github.com/kava2108/booking/backend/internal/repository/db"
-	"github.com/kava2108/booking/backend/internal/service"
-	"github.com/kava2108/booking/backend/internal/testutil/pgtest"
+	"github.com/kava2108/racoreserve/backend/internal/app"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/config"
+	"github.com/kava2108/racoreserve/backend/internal/middleware"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/testutil/pgtest"
 )
 
 // IMP 10-user-auth-auth-handler TASK-0001: 実 DB を使った全エンドポイントの統合テスト

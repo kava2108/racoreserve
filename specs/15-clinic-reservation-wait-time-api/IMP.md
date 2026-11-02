@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-15-clinic-reservation-wait-time-api |
 | imp_version | 1.0.0 |
-| source_issue | #15（https://github.com/kava2108/booking/issues/15） |
+| source_issue | #15（https://github.com/kava2108/racoreserve/issues/15） |
 | task | clinic-reservation tasks.md §3.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

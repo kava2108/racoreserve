@@ -5,10 +5,10 @@ package mocks
 import (
 	context "context"
 
-	domain "github.com/kava2108/booking/backend/internal/domain"
+	domain "github.com/kava2108/racoreserve/backend/internal/domain"
 	mock "github.com/stretchr/testify/mock"
 
-	repository "github.com/kava2108/booking/backend/internal/repository"
+	repository "github.com/kava2108/racoreserve/backend/internal/repository"
 
 	uuid "github.com/google/uuid"
 )

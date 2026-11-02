@@ -30,4 +30,4 @@ DB マイグレーション作成
 
 ## GitHub Issue
 - Issue 番号: #4
-- Issue URL: https://github.com/kava2108/booking/issues/4
+- Issue URL: https://github.com/kava2108/racoreserve/issues/4

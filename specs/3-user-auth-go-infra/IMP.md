@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-3-user-auth-go-infra |
 | imp_version | 1.0.0 |
-| source_issue | #3（https://github.com/kava2108/booking/issues/3） |
+| source_issue | #3（https://github.com/kava2108/racoreserve/issues/3） |
 | task | user-auth tasks.md §1.3 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

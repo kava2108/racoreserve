@@ -42,7 +42,7 @@ created_at: 2026-10-10T18:14:55+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| service/notification_{templates,worker,integration}_test.go, reminder_scheduler_test.go, repository/db/clinic_queries_test.go, db/tests/clinic_migrations_test.sh | REQ-002-AC-3/6, REQ-003-AC-2, REQ-007-AC-4 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| service/notification_{templates,worker,integration}_test.go, reminder_scheduler_test.go, repository/db/clinic_queries_test.go, db/tests/clinic_migrations_test.sh | REQ-002-AC-3/6, REQ-003-AC-2, REQ-007-AC-4 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

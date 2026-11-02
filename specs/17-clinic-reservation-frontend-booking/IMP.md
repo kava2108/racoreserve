@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-17-clinic-reservation-frontend-booking |
 | imp_version | 1.0.1 |
-| source_issue | #17（https://github.com/kava2108/booking/issues/17） |
+| source_issue | #17（https://github.com/kava2108/racoreserve/issues/17） |
 | task | clinic-reservation tasks.md §3.3 |
 | status | active（**実装済みのコードから後追いで作成**） |
 | drift_baseline | e67336bf4d6f20eada9cbf37744f4b5d2eb4027b |

@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	repository "github.com/kava2108/booking/backend/internal/repository"
+	repository "github.com/kava2108/racoreserve/backend/internal/repository"
 	mock "github.com/stretchr/testify/mock"
 )
 

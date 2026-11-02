@@ -41,7 +41,7 @@ created_at: 2026-10-10T17:14:20+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| domain/user_test.go, repository/user_repository_test.go, token_repository_test.go | REQ-001〜004 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| domain/user_test.go, repository/user_repository_test.go, token_repository_test.go | REQ-001〜004 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

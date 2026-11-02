@@ -25,4 +25,4 @@ sqlc クエリと repository interface
 
 ## GitHub Issue
 - Issue 番号: #5
-- Issue URL: https://github.com/kava2108/booking/issues/5
+- Issue URL: https://github.com/kava2108/racoreserve/issues/5

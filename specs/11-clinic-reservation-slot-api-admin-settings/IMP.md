@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-11-clinic-reservation-slot-api-admin-settings |
 | imp_version | 1.0.0 |
-| source_issue | #11（https://github.com/kava2108/booking/issues/11） |
+| source_issue | #11（https://github.com/kava2108/racoreserve/issues/11） |
 | task | clinic-reservation tasks.md §2.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

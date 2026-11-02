@@ -38,7 +38,7 @@ created_at: 2026-10-10T16:16:04+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| backend/db/tests/migrations_test.sh | REQ-001-AC-1, REQ-003-AC-3, REQ-004-AC-1 | TEST_DATABASE_URL=postgres://…/booking_test backend/db/tests/migrations_test.sh |
+| backend/db/tests/migrations_test.sh | REQ-001-AC-1, REQ-003-AC-3, REQ-004-AC-1 | TEST_DATABASE_URL=postgres://…/racoreserve_test backend/db/tests/migrations_test.sh |
 
 ## 完了チェックリスト
 

@@ -11,7 +11,7 @@
 ## ディレクトリ構成（想定）
 
 ```
-booking/
+racoreserve/
 ├── frontend/            # React アプリケーション
 │   ├── src/
 │   │   ├── components/  # 共通 UI コンポーネント（ロジックなし）

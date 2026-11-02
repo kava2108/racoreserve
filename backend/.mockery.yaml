@@ -6,7 +6,7 @@ outpkg: mocks
 filename: "mock_{{.InterfaceName}}.go"
 mockname: "Mock{{.InterfaceName}}"
 packages:
-  github.com/kava2108/booking/backend/internal/repository:
+  github.com/kava2108/racoreserve/backend/internal/repository:
     interfaces:
       SlotRepository:
       AppointmentRepository:
