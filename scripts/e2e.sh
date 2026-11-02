@@ -6,8 +6,8 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 W="$ROOT/.e2e"
-PG=booking-e2e-pg
-WEB=booking-e2e-web
+PG=racoreserve-e2e-pg
+WEB=racoreserve-e2e-web
 PG_PORT=55433
 API_PORT=18090
 WEB_PORT=4173
@@ -23,13 +23,13 @@ cleanup() {
 trap cleanup EXIT
 cleanup
 
-psql() { docker exec -i "$PG" psql -U postgres -d booking_e2e -qtA -v ON_ERROR_STOP=1 "$@"; }
+psql() { docker exec -i "$PG" psql -U postgres -d racoreserve_e2e -qtA -v ON_ERROR_STOP=1 "$@"; }
 
 echo "==> PostgreSQL"
 docker run -d --name "$PG" -e POSTGRES_HOST_AUTH_METHOD=trust -p "127.0.0.1:$PG_PORT:5432" postgres:16 >/dev/null
 until docker exec "$PG" pg_isready -U postgres -q; do sleep 0.5; done
 sleep 1
-docker exec "$PG" psql -U postgres -qc "CREATE DATABASE booking_e2e"
+docker exec "$PG" psql -U postgres -qc "CREATE DATABASE racoreserve_e2e"
 for f in "$ROOT"/backend/db/migrations/*.up.sql; do psql < "$f" >/dev/null; done
 psql -c "INSERT INTO departments(name, standard_consult_minutes) VALUES ('内科', 10)" \
      -c "INSERT INTO doctors(department_id, name) VALUES (1, '山田')" >/dev/null
@@ -41,7 +41,7 @@ docker run --rm --user "$UIDGID" -e HOME=/tmp -e GOCACHE=/tmp/gocache -e GOPATH=
 mv "$ROOT/backend/.e2e-api" "$W/api"
 
 echo "==> backend start"
-DB_DSN="postgres://postgres@127.0.0.1:$PG_PORT/booking_e2e" JWT_SECRET="e2e-secret-e2e-secret-e2e-secret-00" JWT_REFRESH_SECRET="unused-but-required" \
+DB_DSN="postgres://postgres@127.0.0.1:$PG_PORT/racoreserve_e2e" JWT_SECRET="e2e-secret-e2e-secret-e2e-secret-00" JWT_REFRESH_SECRET="unused-but-required" \
 SERVER_PORT="$API_PORT" COOKIE_SECURE=false APP_BASE_URL="http://127.0.0.1:$WEB_PORT" \
 RATE_LIMIT_SENSITIVE_MAX=10000 RATE_LIMIT_LOGIN_IP_MAX=10000 RATE_LIMIT_PUBLIC_MAX=10000 \
   "$W/api" > "$W/api.log" 2>&1 &

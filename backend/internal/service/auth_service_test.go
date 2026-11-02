@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/kava2108/booking/backend/internal/auth"
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository"
-	"github.com/kava2108/booking/backend/internal/repository/mocks"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/repository/mocks"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // IMP 8-user-auth-auth-service-register-login TASK-0001 / IMP 9-user-auth-auth-service-refresh-reset TASK-0001

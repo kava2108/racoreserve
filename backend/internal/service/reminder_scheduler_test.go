@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository/db"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // IMP 14-clinic-reservation-notification-outbox TASK-0001: 前日リマインドと「あと N 人」通知（REQ-002-AC-6）

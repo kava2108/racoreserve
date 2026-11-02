@@ -32,4 +32,4 @@ AuthService interface と Register / Login 実装
 
 ## GitHub Issue
 - Issue 番号: #8
-- Issue URL: https://github.com/kava2108/booking/issues/8
+- Issue URL: https://github.com/kava2108/racoreserve/issues/8

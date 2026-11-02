@@ -12,12 +12,12 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/ulule/limiter/v3"
 
-	"github.com/kava2108/booking/backend/internal/apierror"
-	"github.com/kava2108/booking/backend/internal/auth"
-	"github.com/kava2108/booking/backend/internal/config"
-	"github.com/kava2108/booking/backend/internal/handler"
-	"github.com/kava2108/booking/backend/internal/middleware"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/apierror"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/config"
+	"github.com/kava2108/racoreserve/backend/internal/handler"
+	"github.com/kava2108/racoreserve/backend/internal/middleware"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // Deps は app が必要とする依存。Auth / Tokens が nil の場合は認証ルートを登録しない(healthz のみ)。

@@ -1,4 +1,4 @@
-module github.com/kava2108/booking/backend
+module github.com/kava2108/racoreserve/backend
 
 go 1.25.0
 

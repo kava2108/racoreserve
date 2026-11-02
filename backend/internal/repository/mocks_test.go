@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/kava2108/booking/backend/internal/repository"
-	"github.com/kava2108/booking/backend/internal/repository/mocks"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/repository/mocks"
 )
 
 // mockery 生成モックが interface を満たし、service のユニットテストで使えること。

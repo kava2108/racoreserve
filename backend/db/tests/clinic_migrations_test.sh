@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # clinic-reservation マイグレーション検証（IMP 4-clinic-reservation-db-migration TASK-0001）
-# 使い方: TEST_DATABASE_URL=postgres://user@host:port/booking_test ./clinic_migrations_test.sh
+# 使い方: TEST_DATABASE_URL=postgres://user@host:port/racoreserve_test ./clinic_migrations_test.sh
 source "$(dirname "$0")/lib.sh"
 
 CLINIC_TABLES="'clinic_settings','departments','doctors','doctor_schedules','slots','appointments','queue_entries','closures','notifications','audit_logs'"

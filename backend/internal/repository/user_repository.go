@@ -9,8 +9,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
 )
 
 // CreateUserParams は新規ユーザーの作成パラメーター。Email は正規化（小文字・trim）済みであること。

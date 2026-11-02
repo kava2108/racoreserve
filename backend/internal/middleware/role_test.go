@@ -9,7 +9,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // withIdentity は JWT ミドルウェアの代わりに認証済み情報を注入するテスト用ミドルウェア。

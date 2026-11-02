@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
 )
 
 // IMP 5-clinic-reservation-sqlc-repository TASK-0001

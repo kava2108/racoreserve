@@ -8,8 +8,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5/pgtype"
 
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
 )
 
 // TokenRepository はリフレッシュトークンとパスワードリセットトークンの永続化。

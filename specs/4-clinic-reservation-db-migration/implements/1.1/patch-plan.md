@@ -42,7 +42,7 @@ created_at: 2026-10-10T16:30:56+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| backend/db/tests/clinic_migrations_test.sh | REQ-002-AC-2, REQ-005-AC-4, REQ-007-AC-3, REQ-009-AC-1 | TEST_DATABASE_URL=postgres://…/booking_test backend/db/tests/clinic_migrations_test.sh |
+| backend/db/tests/clinic_migrations_test.sh | REQ-002-AC-2, REQ-005-AC-4, REQ-007-AC-3, REQ-009-AC-1 | TEST_DATABASE_URL=postgres://…/racoreserve_test backend/db/tests/clinic_migrations_test.sh |
 
 ## 完了チェックリスト
 

@@ -6,8 +6,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/apierror"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/apierror"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // WaitTimeNote は待ち時間表示に必ず併記する注記（REQ-004-AC-6）。

@@ -1,4 +1,4 @@
-# Design System MASTER — 施設予約管理システム (booking)
+# Design System MASTER — 施設予約管理システム (racoreserve)
 
 **バージョン**: 1.0.0  
 **生成日**: 2026-04-12  

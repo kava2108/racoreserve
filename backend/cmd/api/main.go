@@ -16,12 +16,12 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/rs/zerolog"
 
-	"github.com/kava2108/booking/backend/internal/app"
-	"github.com/kava2108/booking/backend/internal/auth"
-	"github.com/kava2108/booking/backend/internal/config"
-	"github.com/kava2108/booking/backend/internal/repository"
-	"github.com/kava2108/booking/backend/internal/repository/db"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/app"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/config"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 func main() {

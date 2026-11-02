@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository/db"
-	"github.com/kava2108/booking/backend/internal/repository/mocks"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/repository/mocks"
 )
 
 func uuidValue(id uuid.UUID) pgtype.UUID { return pgtype.UUID{Bytes: id, Valid: true} }

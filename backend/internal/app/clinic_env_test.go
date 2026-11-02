@@ -21,14 +21,14 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/app"
-	"github.com/kava2108/booking/backend/internal/auth"
-	"github.com/kava2108/booking/backend/internal/config"
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository"
-	"github.com/kava2108/booking/backend/internal/repository/db"
-	"github.com/kava2108/booking/backend/internal/service"
-	"github.com/kava2108/booking/backend/internal/testutil/pgtest"
+	"github.com/kava2108/racoreserve/backend/internal/app"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/config"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/testutil/pgtest"
 )
 
 // clinic-reservation の HTTP 統合テスト用の環境（実 DB・固定時計・OpenAPI 契約チェック）。

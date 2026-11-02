@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	db "github.com/kava2108/booking/backend/internal/repository/db"
+	db "github.com/kava2108/racoreserve/backend/internal/repository/db"
 	mock "github.com/stretchr/testify/mock"
 
 	uuid "github.com/google/uuid"

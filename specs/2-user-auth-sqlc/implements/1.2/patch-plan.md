@@ -40,7 +40,7 @@ created_at: 2026-10-10T16:39:54+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| backend/internal/repository/db/auth_queries_test.go | REQ-001-AC-1/2, REQ-002-AC-1, REQ-003-AC-1, REQ-004-AC-1 | TEST_DATABASE_URL=postgres://…/booking_test go test ./internal/repository/... |
+| backend/internal/repository/db/auth_queries_test.go | REQ-001-AC-1/2, REQ-002-AC-1, REQ-003-AC-1, REQ-004-AC-1 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test ./internal/repository/... |
 
 ## 完了チェックリスト
 

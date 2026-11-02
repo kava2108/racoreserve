@@ -45,7 +45,7 @@ created_at: 2026-10-10T16:49:22+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| internal/repository/db/clinic_queries_test.go | REQ-002-AC-2, REQ-004-AC-2 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| internal/repository/db/clinic_queries_test.go | REQ-002-AC-2, REQ-004-AC-2 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 | internal/repository/store_test.go | REQ-002-AC-2 | 同上 |
 
 ## 完了チェックリスト

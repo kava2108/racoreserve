@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // ErrUnknownNotificationKind は描画できない通知種別。再試行しても無駄なので failed にする。

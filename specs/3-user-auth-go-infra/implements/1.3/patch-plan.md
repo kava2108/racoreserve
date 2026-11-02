@@ -28,7 +28,7 @@ created_at: 2026-10-10T16:39:54+09:00
 
 | ファイルパス | 変更種別 | 変更概要 | AC 対応 |
 |---|---|---|---|
-| backend/go.mod, go.sum | 新規 | module github.com/kava2108/booking/backend、Go 1.25 | — |
+| backend/go.mod, go.sum | 新規 | module github.com/kava2108/racoreserve/backend、Go 1.25 | — |
 | backend/cmd/api/main.go | 新規 | newEcho（request_id→logger→recover、/healthz、ExtractIPDirect）と graceful shutdown | — |
 | backend/internal/config/config.go | 新規 | viper で環境変数を読込・検証（必須項目はデフォルト無し） | — |
 | backend/internal/middleware/request_id.go | 新規 | X-Request-ID の引継ぎ/生成（安全な値のみ） | — |

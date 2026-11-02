@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // IMP 13-clinic-reservation-queue-staff-walkin TASK-0001: 待機列・スタッフ操作・当日受付の統合テスト

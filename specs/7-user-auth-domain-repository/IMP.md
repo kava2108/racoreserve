@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-7-user-auth-domain-repository |
 | imp_version | 1.0.0 |
-| source_issue | #7（https://github.com/kava2108/booking/issues/7） |
+| source_issue | #7（https://github.com/kava2108/racoreserve/issues/7） |
 | task | user-auth tasks.md §2.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

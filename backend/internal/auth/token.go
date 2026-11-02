@@ -15,7 +15,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // Issuer はアクセストークンの発行者。検証時にも一致を要求する。

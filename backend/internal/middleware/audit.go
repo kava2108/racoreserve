@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v5/pgtype"
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
 )
 
 // AuditRecorder は監査ログの書き込み先。repository.AdminRepository が満たす。

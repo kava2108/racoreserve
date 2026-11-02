@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-8-user-auth-auth-service-register-login |
 | imp_version | 1.0.0 |
-| source_issue | #8（https://github.com/kava2108/booking/issues/8） |
+| source_issue | #8（https://github.com/kava2108/racoreserve/issues/8） |
 | task | user-auth tasks.md §3.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

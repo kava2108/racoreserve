@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository"
-	"github.com/kava2108/booking/backend/internal/repository/db"
-	"github.com/kava2108/booking/backend/internal/testutil/pgtest"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/repository/db"
+	"github.com/kava2108/racoreserve/backend/internal/testutil/pgtest"
 )
 
 // IMP 7-user-auth-domain-repository TASK-0001

@@ -40,7 +40,7 @@ created_at: 2026-10-10T18:14:55+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| service/appointment_service_test.go, app/appointments_integration_test.go, domain/notification_test.go, repository/errors_test.go | REQ-002-AC-1〜5, REQ-003-AC-1〜4, REQ-007-AC-2 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| service/appointment_service_test.go, app/appointments_integration_test.go, domain/notification_test.go, repository/errors_test.go | REQ-002-AC-1〜5, REQ-003-AC-1〜4, REQ-007-AC-2 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

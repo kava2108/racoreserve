@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-6-clinic-reservation-rbac-audit-openapi |
 | imp_version | 1.0.0 |
-| source_issue | #6（https://github.com/kava2108/booking/issues/6） |
+| source_issue | #6（https://github.com/kava2108/racoreserve/issues/6） |
 | task | clinic-reservation tasks.md §1.3 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

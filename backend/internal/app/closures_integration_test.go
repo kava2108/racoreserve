@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // IMP 16-clinic-reservation-closures TASK-0001: 休診設定の統合テスト（REQ-005-AC-3）

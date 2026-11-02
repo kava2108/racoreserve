@@ -40,7 +40,7 @@ created_at: 2026-10-10T18:42:51+09:00
 
 | テストファイル | カバーする AC | 実行コマンド |
 |---|---|---|
-| service/closure_service_test.go, notification_templates_test.go, app/closures_integration_test.go | REQ-005-AC-3/4, REQ-007 | TEST_DATABASE_URL=postgres://…/booking_test go test -race ./... |
+| service/closure_service_test.go, notification_templates_test.go, app/closures_integration_test.go | REQ-005-AC-3/4, REQ-007 | TEST_DATABASE_URL=postgres://…/racoreserve_test go test -race ./... |
 
 ## 完了チェックリスト
 

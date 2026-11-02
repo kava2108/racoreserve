@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # マイグレーション検証（IMP 1-user-auth-db-migration TASK-0001）
-# 使い方: TEST_DATABASE_URL=postgres://user@host:port/booking_test ./migrations_test.sh
+# 使い方: TEST_DATABASE_URL=postgres://user@host:port/racoreserve_test ./migrations_test.sh
 # 注意: DB 名が *_test で終わらない場合は実行を拒否する（public スキーマを初期化するため）
 source "$(dirname "$0")/lib.sh"
 tables() { sql "SELECT count(*) FROM information_schema.tables WHERE table_schema='public' AND table_name IN ('users','refresh_tokens','password_reset_tokens')"; }

@@ -7,8 +7,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/apierror"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/apierror"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // serviceError は service の入力エラー(ValidationError)を 422 に変換する。それ以外はそのまま返す(Handler が 5xx/既定の形式にする)。

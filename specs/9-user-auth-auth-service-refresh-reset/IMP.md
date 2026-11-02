@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-9-user-auth-auth-service-refresh-reset |
 | imp_version | 1.0.0 |
-| source_issue | #9（https://github.com/kava2108/booking/issues/9） |
+| source_issue | #9（https://github.com/kava2108/racoreserve/issues/9） |
 | task | user-auth tasks.md §3.2 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

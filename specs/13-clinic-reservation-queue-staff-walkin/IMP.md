@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-13-clinic-reservation-queue-staff-walkin |
 | imp_version | 1.0.0 |
-| source_issue | #13（https://github.com/kava2108/booking/issues/13） |
+| source_issue | #13（https://github.com/kava2108/racoreserve/issues/13） |
 | task | clinic-reservation tasks.md §2.3 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-1-user-auth-db-migration |
 | imp_version | 1.0.0 |
-| source_issue | #1（https://github.com/kava2108/booking/issues/1） |
+| source_issue | #1（https://github.com/kava2108/racoreserve/issues/1） |
 | task | user-auth tasks.md §1.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |
@@ -102,7 +102,7 @@ sqlc クエリ（#2）、アプリコード（#3）、clinic-reservation のテ�
 **入力**
 ```
 入力: 空の PostgreSQL 15+ DB
-  例: postgres://app@localhost/booking_test
+  例: postgres://app@localhost/racoreserve_test
 ```
 
 **出力**

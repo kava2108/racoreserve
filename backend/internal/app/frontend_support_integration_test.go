@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
 )
 
 // フロントエンド対応: スタッフの当日予約一覧と、管理者画面の現在値の参照（実 DB・OpenAPI 契約チェック）

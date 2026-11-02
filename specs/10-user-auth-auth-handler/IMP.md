@@ -37,7 +37,7 @@ baton:
 |---|---|
 | imp_id | IMP-10-user-auth-auth-handler |
 | imp_version | 1.0.0 |
-| source_issue | #10（https://github.com/kava2108/booking/issues/10） |
+| source_issue | #10（https://github.com/kava2108/racoreserve/issues/10） |
 | task | user-auth tasks.md §4.1 |
 | status | draft |
 | drift_baseline | N/A（リポジトリにコミットが無いため） |

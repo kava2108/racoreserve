@@ -13,9 +13,9 @@ import (
 	"github.com/rs/zerolog"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/kava2108/booking/backend/internal/auth"
-	"github.com/kava2108/booking/backend/internal/domain"
-	"github.com/kava2108/booking/backend/internal/repository"
+	"github.com/kava2108/racoreserve/backend/internal/auth"
+	"github.com/kava2108/racoreserve/backend/internal/domain"
+	"github.com/kava2108/racoreserve/backend/internal/repository"
 )
 
 const (

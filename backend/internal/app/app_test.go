@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kava2108/booking/backend/internal/app"
-	"github.com/kava2108/booking/backend/internal/config"
+	"github.com/kava2108/racoreserve/backend/internal/app"
+	"github.com/kava2108/racoreserve/backend/internal/config"
 )
 
 // IMP 3-user-auth-go-infra のテストを app パッケージへ移動（newEcho → app.New）。認証なしでも起動できる。

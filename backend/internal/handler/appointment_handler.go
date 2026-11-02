@@ -8,9 +8,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
 
-	"github.com/kava2108/booking/backend/internal/apierror"
-	"github.com/kava2108/booking/backend/internal/middleware"
-	"github.com/kava2108/booking/backend/internal/service"
+	"github.com/kava2108/racoreserve/backend/internal/apierror"
+	"github.com/kava2108/racoreserve/backend/internal/middleware"
+	"github.com/kava2108/racoreserve/backend/internal/service"
 )
 
 // AppointmentHandler は患者の予約 API。すべて認証必須で、操作対象は常に本人の予約（他人の予約は 404）。
